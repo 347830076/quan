@@ -153,7 +153,7 @@ body {
   display: inline-block;
   vertical-align: middle;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 700px;
   color: #d61423;
   margin: 0 10px;
 }
@@ -174,165 +174,8 @@ body {
   background-image: url("../image/block_title_r.png");
 }
 
-/* 为什么学拳击 */
-.whyCon {
-  padding: 0 20px;
-  margin-bottom: 10px;
-}
-.why_title {
-  position: relative;
-  font-size: 16px;
-  font-weight: 700;
-  padding-left: 30px;
-  margin-bottom: 10px;
-}
-.why_title::after {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  content: "";
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  width: 14px;
-  height: 2px;
-  background-color: #d61423;
-}
-.why_p {
-  font-size: 12px;
-  line-height: 20px;
-}
-.whyRow {
-  position: relative;
-  margin-bottom: 10px;
-}
-.whyImgCon {
-  float: left;
-  width: 80px;
-  height: 80px;
-  margin-right: 10px;
-}
-.whyImgCon > img {
-  width: 100%;
-  height: 100%;
-}
-.whyRowTitle {
-  font-size: 15px;
-  color: #444e7d;
-  line-height: 20px;
-  margin-bottom: 4px;
-}
-
-.whyVideo {
-  position: relative;
-  width: 48%;
-  float: left;
-  text-align: center;
-}
-.whyVideo .videoCon {
-  width: 100%;
-  height: 115px;
-  margin-bottom: 10px;
-}
-.whyVideo .play {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 36px !important;
-  height: 36px !important;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-.vsCon {
-  position: relative;
-  margin-bottom: 10px;
-}
-.vsConImg {
-  float: left;
-  width: 43%;
-  height: 100px;
-  border: 2px solid #EA2131;
-  overflow: hidden;
-}
-.vsText {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 20px;
-  color: #EA2131;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-.whyPront{
-  position: absolute;
-  left: 0;
-  top: 4px;
-  width: 10px;
-  height: 10px;
-  border: 2px solid #d6d6d6;
-  border-radius: 100%;
-}
-.pl20{
-  padding-left: 20px;
-}
-.whyLear{
-  margin-bottom: 10px;
-}
-.whyLear_l,.whyLear_r{
-  position: relative;
-  float: left;
-  width: 49.5%;
-  height: 272px;
-  overflow: hidden;
-}
-.whyLear_l>span,.whyLear_r span{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  padding: 6px 10px;
-  font-size: 12px;
-  color: #fff;
-  background-color: rgba(0,0,0,0.2);
-  z-index: 1;
-}
-.whyLear_r{
-  margin-left: 1%;
-}
-.whyLear_r_t{
-  position: relative;
-  height: 88px;
-  overflow: hidden;
-}
-.mb4{
-  margin-bottom: 4px;
-}
-.whyImgCon2{
-  position: absolute;
-  left: 20px;
-  top: 0;
-  width: 44px;
-  height: 44px;
-  border-radius: 100%;
-  overflow: hidden;
-}
-.whyImgCon2>img{
-  width: 100%;
-  height: 100%;
-}
-.c3{
-  color: #333;
-}
-.whyRow2{
-  position: relative;
-  margin-bottom: 20px;
-  padding-left:74px;
-  padding-right: 20px;
-}
-/* 为什么选择我们 */
-.mlt20{
-  margin-left: 20px;
-  margin-top: 20px;
-}
 /* 我要约课 */
+
 .yuekeCon {
   padding: 0 20px 1px;
 }
@@ -431,10 +274,7 @@ body {
   background-color: #ccc;
   overflow: hidden;
 }
-.videoCon video{
-  width: 100%; height: 100%;
-}
-.videoImgCon {
+.videoImgCon{
   position: absolute;
   left: 0;
   top: 0;
@@ -459,32 +299,6 @@ body {
   font-size: 12px;
   color: #444444;
   line-height: 20px;
-}
-
-.classCon{
-  margin: 0 20px;
-  border: 1px solid #dfdfdf;
-}
-.classTitle{
-  text-align: center;    
-  padding: 10px;
-  font-weight: 700;
-  background-color: #f5f5f5;
-}
-.classRow{
-  border-top: 1px solid #dfdfdf;
-  overflow: hidden;
-}
-.classRow>div{
-  float: left;
-  width: 50%;
-  padding: 10px;
-  padding-bottom:510px;
-  margin-bottom: -500px; 
-  
-}
-.classRow_l{
-  border-right: 1px solid #dfdfdf;
 }
 
 /* end 训练视频 */
@@ -585,7 +399,7 @@ body {
 .jingyingCon_m {
   position: relative;
   height: 110px;
-  overflow: hidden;
+  overflow: hidden;  
   padding-right: 20px;
 }
 .jingyingCon_m > div {
@@ -593,7 +407,7 @@ body {
   color: #666666;
   line-height: 22px;
 }
-.jyHide {
+.jyHide{
   display: none;
 }
 .jingyingCon .more {
@@ -603,124 +417,110 @@ body {
   font-size: 12px;
   background-color: #fff;
 }
-.jingyingCon .more {
+.jingyingCon .more  {
   color: #d61423;
 }
 /* end 精英教练 */
 /* 联系我们 */
 .linkCon {
-  margin-top: 10px;
   background-color: #fff;
 }
-.zhengshuCon{
-  white-space: nowrap;
-  padding-left: 20px;
-  overflow-x: auto;
-  margin-bottom: 20px;
-}
-.zhengshuImg{
-  display: inline-block;
-  width: 155px;
-  height: 110px;
-  overflow: hidden;
-  margin-right: 10px;
-}
-.linkRow {
-  margin: 0 20px;
-  border-bottom: 1px solid #d8d8d8;
+.linkRow{
+    margin: 0 20px;
+    border-bottom: 1px solid #d8d8d8;
 }
 .link_title {
   font-size: 18px;
   color: #333333;
 }
-.link_phone {
-  margin: 10px 0;
-  font-size: 12px;
+.link_phone{
+    margin: 10px 0;
+    font-size: 12px;
 }
-.link_phone_r {
-  float: right;
+.link_phone_r{
+    float: right;
 }
-.linkRowCon {
-  position: relative;
-  padding-left: 32px;
-  margin: 10px 0;
+.linkRowCon{
+    position: relative;
+    padding-left: 32px;
+    margin: 10px 0;
 }
-.linkRow_l {
-  position: absolute;
-  left: 0;
-  top: 0px;
-  width: 18px;
-  height: 22px;
-  background-image: url("../image/addr.png");
-  background-size: 100% 100%;
+.linkRow_l{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 18px;
+    height: 22px;
+    background-image: url('../image/addr.png');
+    background-size: 100% 100%;
 }
-.linkRow_r_tip {
-  font-size: 12px;
-  padding-top: 4px;
+.linkRow_r_tip{
+    font-size: 12px;
+    padding-top: 4px;
 }
-.code {
-  width: 90px;
-  height: 90px;
+.code{
+    width: 90px;
+    height: 90px;
 }
-.codeCon {
-  position: relative;
-  padding: 20px 0;
+.codeCon{
+    position: relative;
+    padding: 20px 0; 
 }
-.codeCon > div {
-  position: absolute;
-  left: 110px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  line-height: 24px;
+.codeCon>div{
+    position: absolute;
+    left: 110px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    line-height: 24px;
 }
-.copright {
-  text-align: center;
-  font-size: 10px;
-  color: #999;
-  padding: 20px 0;
+.copright{
+    text-align: center;
+    font-size: 10px;
+    color: #999;
+    padding: 20px 0;
 }
-.footerBtn {
-  border-top: 1px solid #d61423;
-  padding: 20px 0;
+.footerBtn{
+    border-top: 1px solid #D61423;
+    padding: 20px 0;
 }
-.footerBtn > a {
-  float: left;
-  width: 50%;
-  text-align: center;
+.footerBtn>a{
+    float: left;
+    width: 50%;
+    text-align: center;
 }
-.footerBtn_l {
-  border-right: 1px solid #d8d8d8;
+.footerBtn_l{
+    border-right: 1px solid #d8d8d8;
 }
-.footerBtn_l > i {
-  display: inline-block;
-  vertical-align: middle;
-  width: 18px;
-  height: 16px;
-  background-image: url("../image/duanxin.png");
-  background-size: 100% 100%;
+.footerBtn_l>i{
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 16px;
+    background-image: url('../image/duanxin.png');
+    background-size: 100% 100%;
 }
-.footerBtn_r > i {
-  display: inline-block;
-  vertical-align: middle;
-  width: 15px;
-  height: 16px;
-  background-image: url("../image/phone.png");
-  background-size: 100% 100%;
+.footerBtn_r>i{
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 16px;
+    background-image: url('../image/phone.png');
+    background-size: 100% 100%;
 }
-.footerBtn_l > span {
-  display: inline-block;
-  vertical-align: middle;
+.footerBtn_l>span{
+    display: inline-block;
+    vertical-align: middle;
 }
 /* end 联系我们 */
 
-.swiper-pagination-bullet {
+.swiper-pagination-bullet{
   width: 30px;
   height: 4px;
   background-color: #ccc;
   opacity: 0.6;
   border-radius: 2px;
 }
-.swiper-pagination-bullet-active {
-  background-color: #d61423;
+.swiper-pagination-bullet-active{
+  background-color: #D61423;
 }
