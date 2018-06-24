@@ -438,7 +438,6 @@ body{
   position: relative;
   width: 222px;
   height: 150px;
-  background-color: #ccc;
   overflow: hidden;
 }
 .videoCon video{
