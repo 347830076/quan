@@ -10,18 +10,10 @@
     <link rel="stylesheet" href="../css/index.css">
     <title>首页</title>
     <script src="../js/fit_image.js"></script>
-    <script>
-        function loaded() {
-            var myScroll = new IScroll('#scroller', { eventPassthrough: true, scrollX: true, scrollY: false, preventDefault: false });
-            var myScroll2 = new IScroll('#scroller2', { eventPassthrough: true, scrollX: true, scrollY: false, preventDefault: false });
-            var myScroll3 = new IScroll('#scroller3', { eventPassthrough: true, scrollX: true, scrollY: false, preventDefault: false });
-            var myScroll4 = new IScroll('#scroller4', { eventPassthrough: true, scrollX: true, scrollY: false, preventDefault: false });
-            var myScroll5 = new IScroll('#scroller5', { eventPassthrough: true, scrollX: true, scrollY: false, preventDefault: false });
-        }
-    </script>
+
 </head>
 
-<body onload="loaded()">
+<body>
     <div class="top">
         <div class="logo"></div>
         <a href="tel:400-838-1998" class="top_r">
@@ -701,12 +693,20 @@
     <script src="../js/swiper.min.js"></script>
     <script src="../js/iscroll.js"></script>
     <script>
-        var swiper = new Swiper('#swiper', {
-            pagination: '.swiper-pagination',
-        });
-        var swiper2 = new Swiper('#swiper2', {
-            pagination: '.swiper-pagination',
-        });
+        $(function () {
+            var swiper = new Swiper('#swiper', {
+                pagination: '.swiper-pagination',
+            });
+            var swiper2 = new Swiper('#swiper2', {
+                pagination: '.swiper-pagination',
+            });
+            var myScroll = new IScroll('#scroller', { eventPassthrough: true, scrollX: true, scrollY: false, preventDefault: false });
+            var myScroll2 = new IScroll('#scroller2', { eventPassthrough: true, scrollX: true, scrollY: false, preventDefault: false });
+            var myScroll3 = new IScroll('#scroller3', { eventPassthrough: true, scrollX: true, scrollY: false, preventDefault: false });
+            var myScroll4 = new IScroll('#scroller4', { eventPassthrough: true, scrollX: true, scrollY: false, preventDefault: false });
+            var myScroll5 = new IScroll('#scroller5', { eventPassthrough: true, scrollX: true, scrollY: false, preventDefault: false });
+        })
+
         //点击更多
         $('.more').click(function () {
             if ($(this).text() == '更多') {
