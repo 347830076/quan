@@ -385,16 +385,20 @@ body{
 }
 
 /* 会员案例 */
-
-.huiyuanCon {
+#scroller,#scroller2,#scroller3,#scroller4,#scroller5{
   width: 100%;
-  white-space: nowrap;
-  overflow-x: auto;
+  overflow: hidden;
+  -ms-touch-action: none;
   padding-left: 20px;
+}
+.huiyuanCon {
+  width: 1100px;
+  /* white-space: nowrap; */
+  /* overflow-x: auto; */
 }
 
 .huiyuan {
-  display: inline-block;
+  float: left;
   width: 260px;
   margin-right: 10px;
 }
@@ -422,11 +426,12 @@ body{
 /* 训练视频 */
 
 .shipinCon {
-  white-space: nowrap;
-  padding-left: 20px;
+  float: left;
+  /* white-space: nowrap;
+  padding-left: 20px; */
   margin-bottom: 10px;
-  width: 100%;
-  overflow-x: auto;
+  width: 730px;
+  /* overflow-x: auto; */
 }
 
 .shipin {
@@ -500,11 +505,12 @@ body{
 /* 训练环境 */
 
 .huanjingCon {
-  white-space: nowrap;
-  padding-left: 20px;
+  float: left;
+  /* white-space: nowrap;
+  padding-left: 20px; */
   margin-bottom: 10px;
-  width: 100%;
-  overflow-x: auto;
+  width: 900px;
+  /* overflow-x: auto; */
 }
 
 .huanjing {
@@ -655,9 +661,11 @@ body{
   background-color: #fff;
 }
 .zhengshuCon{
-  white-space: nowrap;
+  float: left;
+  width: 870px;
+  /* white-space: nowrap;
   padding-left: 20px;
-  overflow-x: auto;
+  overflow-x: auto; */
   margin-bottom: 20px;
 }
 .zhengshuImg{

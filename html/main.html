@@ -10,9 +10,17 @@
     <link rel="stylesheet" href="../css/index.css">
     <title>产品页面</title>
     <script src="../js/fit_image.js"></script>
+    <script>
+        function loaded() {
+            var myScroll = new IScroll('#scroller', { eventPassthrough: true, scrollX: true, scrollY: false, preventDefault: false });
+            var myScroll2 = new IScroll('#scroller2', { eventPassthrough: true, scrollX: true, scrollY: false, preventDefault: false });
+            var myScroll3 = new IScroll('#scroller3', { eventPassthrough: true, scrollX: true, scrollY: false, preventDefault: false });
+            var myScroll4 = new IScroll('#scroller4', { eventPassthrough: true, scrollX: true, scrollY: false, preventDefault: false });
+        }
+    </script>
 </head>
 
-<body>
+<body onload="loaded()">
     <div class="top">
         <div class="logo"></div>
         <a href="tel:400-838-1998" class="top_r">
@@ -86,26 +94,28 @@
             <span>会员案例</span>
             <i class="block_title_r"></i>
         </div>
-        <div class="huiyuanCon">
-            <div class="huiyuan">
-                <img src="../image/h1.png">
-                <div class="huiyuan_title">减肥塑形</div>
-                <div class="huiyuan_tip">刘小姐原先的身材较丰满，通过2个月的拳击训练，成功减重10公斤，达到自己理想的体重。</div>
-            </div>
-            <div class="huiyuan">
-                <img src="../image/h2.png">
-                <div class="huiyuan_title">减压发泄</div>
-                <div class="huiyuan_tip">刘先生因为工作繁忙，导致压力大没时间锻炼，身体一直亚健康。精神状态有了很大改善。</div>
-            </div>
-            <div class="huiyuan">
-                <img src="../image/h3.png">
-                <div class="huiyuan_title">减压发泄</div>
-                <div class="huiyuan_tip">刘先生因为工作繁忙，导致压力大没时间锻炼，身体一直亚健康。精神状态有了很大改善。</div>
-            </div>
-            <div class="huiyuan">
-                <img src="../image/h4.png">
-                <div class="huiyuan_title">减压发泄</div>
-                <div class="huiyuan_tip">刘先生因为工作繁忙，导致压力大没时间锻炼，身体一直亚健康。精神状态有了很大改善。</div>
+        <div id="scroller">
+            <div class="huiyuanCon">
+                <div class="huiyuan">
+                    <img src="../image/h1.png">
+                    <div class="huiyuan_title">减肥塑形</div>
+                    <div class="huiyuan_tip">刘小姐原先的身材较丰满，通过2个月的拳击训练，成功减重10公斤，达到自己理想的体重。</div>
+                </div>
+                <div class="huiyuan">
+                    <img src="../image/h2.png">
+                    <div class="huiyuan_title">减压发泄</div>
+                    <div class="huiyuan_tip">刘先生因为工作繁忙，导致压力大没时间锻炼，身体一直亚健康。精神状态有了很大改善。</div>
+                </div>
+                <div class="huiyuan">
+                    <img src="../image/h3.png">
+                    <div class="huiyuan_title">减压发泄</div>
+                    <div class="huiyuan_tip">刘先生因为工作繁忙，导致压力大没时间锻炼，身体一直亚健康。精神状态有了很大改善。</div>
+                </div>
+                <div class="huiyuan">
+                    <img src="../image/h4.png">
+                    <div class="huiyuan_title">减压发泄</div>
+                    <div class="huiyuan_tip">刘先生因为工作繁忙，导致压力大没时间锻炼，身体一直亚健康。精神状态有了很大改善。</div>
+                </div>
             </div>
         </div>
     </div>
@@ -116,68 +126,72 @@
             <span>训练视频</span>
             <i class="block_title_r"></i>
         </div>
-        <div class="shipinCon clearfix">
-            <div class="shipin">
-                <div class="videoCon">
-                    <i class="play"></i>
-                    <video id='video1' style="width: 100%; height: 100%;" src="../video/v1.mp4"></video>
-                    <div class="videoImgCon">
-                        <img onload="fitImage(this.parentNode,this)" onclick="return false" src="../image/v11.jpg">
+        <div id="scroller2">
+            <div class="shipinCon clearfix">
+                <div class="shipin">
+                    <div class="videoCon">
+                        <i class="play"></i>
+                        <video src="../video/v1.mp4"></video>
+                        <div class="videoImgCon">
+                            <img onload="fitImage(this.parentNode,this)" onclick="return false" src="../image/v11.jpg">
+                        </div>
                     </div>
+                    <div class="videoTip">训练后在一边休息的小姐姐们</div>
                 </div>
-                <div class="videoTip">训练后在一边休息的小姐姐们</div>
-            </div>
-            <div class="shipin">
-                <div class="videoCon">
-                    <i class="play"></i>
-                    <video id='video1' style="width: 100%; height: 100%;" src="../video/v1.mp4"></video>
-                    <div class="videoImgCon">
-                        <img onload="fitImage(this.parentNode,this)" onclick="return false" src="../image/v12.jpg">
+                <div class="shipin">
+                    <div class="videoCon">
+                        <i class="play"></i>
+                        <video src="../video/v1.mp4"></video>
+                        <div class="videoImgCon">
+                            <img onload="fitImage(this.parentNode,this)" onclick="return false" src="../image/v12.jpg">
+                        </div>
                     </div>
+                    <div class="videoTip">精彩的拳击训练中</div>
                 </div>
-                <div class="videoTip">精彩的拳击训练中</div>
-            </div>
-            <div class="shipin">
-                <div class="videoCon">
-                    <i class="play"></i>
-                    <video src="../video/v1.mp4"></video>
-                    <div class="videoImgCon">
-                        <img onload="fitImage(this.parentNode,this)" onclick="return false" src="../image/v13.jpg">
+                <div class="shipin">
+                    <div class="videoCon">
+                        <i class="play"></i>
+                        <video src="../video/v1.mp4"></video>
+                        <div class="videoImgCon">
+                            <img onload="fitImage(this.parentNode,this)" onclick="return false" src="../image/v13.jpg">
+                        </div>
                     </div>
+                    <div class="videoTip">精彩的拳击训练中</div>
                 </div>
-                <div class="videoTip">精彩的拳击训练中</div>
             </div>
         </div>
-        <div class="shipinCon clearfix">
-            <div class="shipin">
-                <div class="videoCon">
-                    <i class="play"></i>
-                    <video id='video1' style="width: 100%; height: 100%;" src="../video/v1.mp4"></video>
-                    <div class="videoImgCon">
-                        <img onload="fitImage(this.parentNode,this)" onclick="return false" src="../image/v14.jpg">
+        <div id="scroller3">
+            <div class="shipinCon clearfix">
+                <div class="shipin">
+                    <div class="videoCon">
+                        <i class="play"></i>
+                        <video src="../video/v1.mp4"></video>
+                        <div class="videoImgCon">
+                            <img onload="fitImage(this.parentNode,this)" onclick="return false" src="../image/v14.jpg">
+                        </div>
                     </div>
+                    <div class="videoTip">男生在精彩对决中国呢</div>
                 </div>
-                <div class="videoTip">男生在精彩对决中国呢</div>
-            </div>
-            <div class="shipin">
-                <div class="videoCon">
-                    <i class="play"></i>
-                    <video id='video1' style="width: 100%; height: 100%;" src="../video/v1.mp4"></video>
-                    <div class="videoImgCon">
-                        <img onload="fitImage(this.parentNode,this)" onclick="return false" src="../image/v15.jpg">
+                <div class="shipin">
+                    <div class="videoCon">
+                        <i class="play"></i>
+                        <video src="../video/v1.mp4"></video>
+                        <div class="videoImgCon">
+                            <img onload="fitImage(this.parentNode,this)" onclick="return false" src="../image/v15.jpg">
+                        </div>
                     </div>
+                    <div class="videoTip">精彩的拳击训练中</div>
                 </div>
-                <div class="videoTip">精彩的拳击训练中</div>
-            </div>
-            <div class="shipin">
-                <div class="videoCon">
-                    <i class="play"></i>
-                    <video src="../video/v1.mp4"></video>
-                    <div class="videoImgCon">
-                        <img onload="fitImage(this.parentNode,this)" onclick="return false" src="../image/v16.jpg">
+                <div class="shipin">
+                    <div class="videoCon">
+                        <i class="play"></i>
+                        <video src="../video/v1.mp4"></video>
+                        <div class="videoImgCon">
+                            <img onload="fitImage(this.parentNode,this)" onclick="return false" src="../image/v16.jpg">
+                        </div>
                     </div>
+                    <div class="videoTip">精彩的拳击训练中</div>
                 </div>
-                <div class="videoTip">精彩的拳击训练中</div>
             </div>
         </div>
     </div>
@@ -188,55 +202,57 @@
             <span>训练环境</span>
             <i class="block_title_r"></i>
         </div>
-        <div class="huanjingCon clearfix">
-            <div class="huanjing">
-                <div class="huanjing_t">
-                    <span>深圳馆</span>
-                    <i></i>
-                </div>
-                <div class="huanjing_m">
-                    <img onload="fitImage(this.parentNode,this)" src="../image/s1.png">
-                </div>
-                <div class="huanjing_b">
-                    <div class="huanjing_b_l">
-                        <img onload="fitImage(this.parentNode,this)" src="../image/s2.png">
+        <div id="scroller4">
+            <div class="huanjingCon clearfix">
+                <div class="huanjing" id="shenzhen">
+                    <div class="huanjing_t">
+                        <span>深圳馆</span>
+                        <i></i>
                     </div>
-                    <div>
-                        <img onload="fitImage(this.parentNode,this)" src="../image/s3.png">
+                    <div class="huanjing_m">
+                        <img onload="fitImage(this.parentNode,this)" src="../image/s1.png">
                     </div>
-                </div>
-            </div>
-            <div class="huanjing">
-                <div class="huanjing_t">
-                    <span>广州馆</span>
-                    <i></i>
-                </div>
-                <div class="huanjing_m">
-                    <img onload="fitImage(this.parentNode,this)" src="../image/s4.png">
-                </div>
-                <div class="huanjing_b">
-                    <div class="huanjing_b_l">
-                        <img onload="fitImage(this.parentNode,this)" src="../image/s5.png">
-                    </div>
-                    <div>
-                        <img onload="fitImage(this.parentNode,this)" src="../image/s6.png">
+                    <div class="huanjing_b">
+                        <div class="huanjing_b_l">
+                            <img onload="fitImage(this.parentNode,this)" src="../image/s2.png">
+                        </div>
+                        <div>
+                            <img onload="fitImage(this.parentNode,this)" src="../image/s3.png">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="huanjing">
-                <div class="huanjing_t">
-                    <span>北京馆</span>
-                    <i></i>
-                </div>
-                <div class="huanjing_m">
-                    <img onload="fitImage(this.parentNode,this)" src="../image/s7.png">
-                </div>
-                <div class="huanjing_b">
-                    <div class="huanjing_b_l">
-                        <img onload="fitImage(this.parentNode,this)" src="../image/s8.png">
+                <div class="huanjing" id="guangzhou">
+                    <div class="huanjing_t">
+                        <span>广州馆</span>
+                        <i></i>
                     </div>
-                    <div>
-                        <img onload="fitImage(this.parentNode,this)" src="../image/s9.png">
+                    <div class="huanjing_m">
+                        <img onload="fitImage(this.parentNode,this)" src="../image/s4.png">
+                    </div>
+                    <div class="huanjing_b">
+                        <div class="huanjing_b_l">
+                            <img onload="fitImage(this.parentNode,this)" src="../image/s5.png">
+                        </div>
+                        <div>
+                            <img onload="fitImage(this.parentNode,this)" src="../image/s6.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="huanjing" id="beijing">
+                    <div class="huanjing_t">
+                        <span>北京馆</span>
+                        <i></i>
+                    </div>
+                    <div class="huanjing_m">
+                        <img onload="fitImage(this.parentNode,this)" src="../image/s7.png">
+                    </div>
+                    <div class="huanjing_b">
+                        <div class="huanjing_b_l">
+                            <img onload="fitImage(this.parentNode,this)" src="../image/s8.png">
+                        </div>
+                        <div>
+                            <img onload="fitImage(this.parentNode,this)" src="../image/s9.png">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -466,8 +482,10 @@
             <span>电话预约体验</span>
         </a>
     </div>
+    <div id="allmap"></div>
     <script src="../js/zepto_v1.2.0.min.js"></script>
     <script src="../js/swiper.min.js"></script>
+    <script src="../js/iscroll.js"></script>
     <script>
         var swiper = new Swiper('#swiper', {
             pagination: '.swiper-pagination',
@@ -492,6 +510,42 @@
             $(this).css('display', 'none');
             $(this).parent().find('.videoImgCon').css('display', 'none');
         })
+    </script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=SalVkqMoNKh8lZugiLBICl0B"></script>
+    <script type="text/javascript">
+        // 百度地图API功能
+        var map = new BMap.Map("allmap");
+        var point = new BMap.Point(116.331398, 39.897445);
+        map.centerAndZoom(point, 12);
+
+        var geolocation = new BMap.Geolocation();
+        geolocation.getCurrentPosition(function (r) {
+            console.log(r)
+            if (this.getStatus() == BMAP_STATUS_SUCCESS) {
+                if (r.address && r.address.city) {
+                    if (r.address.city.indexOf('广州') > -1) {
+                        $('.huanjingCon').prepend($('#guangzhou'));
+                    } else if (r.address.city.indexOf('深圳') > -1) {
+                        $('.huanjingCon').prepend($('#shenzhen'));
+                    } else if (r.address.city.indexOf('北京') > -1) {
+                        $('.huanjingCon').prepend($('#beijing'));
+                    }
+                }
+            }
+            else {
+
+            }
+        }, { enableHighAccuracy: true })
+        //关于状态码
+        //BMAP_STATUS_SUCCESS	检索成功。对应数值“0”。
+        //BMAP_STATUS_CITY_LIST	城市列表。对应数值“1”。
+        //BMAP_STATUS_UNKNOWN_LOCATION	位置结果未知。对应数值“2”。
+        //BMAP_STATUS_UNKNOWN_ROUTE	导航结果未知。对应数值“3”。
+        //BMAP_STATUS_INVALID_KEY	非法密钥。对应数值“4”。
+        //BMAP_STATUS_INVALID_REQUEST	非法请求。对应数值“5”。
+        //BMAP_STATUS_PERMISSION_DENIED	没有权限。对应数值“6”。(自 1.1 新增)
+        //BMAP_STATUS_SERVICE_UNAVAILABLE	服务不可用。对应数值“7”。(自 1.1 新增)
+        //BMAP_STATUS_TIMEOUT	超时。对应数值“8”。(自 1.1 新增)
     </script>
 </body>
 
