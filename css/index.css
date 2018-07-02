@@ -460,10 +460,12 @@ body{
 
 .videoCon .play {
   position: absolute;
-  right: 10px;
-  bottom: 20px;
-  width: 32px;
-  height: 32px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 36px;
+  height: 36px;
   background-image: url("../image/play.png");
   background-size: 100% 100%;
   z-index: 2;
@@ -830,6 +832,35 @@ body{
 	background-color: #EFEFEF;
 	margin: 20px 0;
 }
+.tanRow{
+  margin-bottom: 20px;
+}
+.tanRow>div{
+  position: relative;
+  float: left;
+  width: 49%;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  border: 1px solid #C8C8C8;
+  border-radius: 1px;
+}
+.tanRow>div.active{
+  border-color: #d61423;
+  color: #d61423;
+}
+.tanRow>div.active i{
+  position: absolute;
+  right: -1px;
+  bottom: -1px;
+  width: 16px;
+  height: 14px;
+  background-image: url('../image/dui.png');
+  background-size: 100% 100%;
+}
+.tanRow_l{
+  margin-right: 2%;
+}
 .tanBtn{
 	width: 100%;
 	height: 44px;
@@ -838,4 +869,12 @@ body{
 	font-size: 18px;
 	color: #fff;
 	background-color: #EA132C;
+}
+.textareaCon>textarea{
+  width: 100%;
+  height: 50px;
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px
 }
