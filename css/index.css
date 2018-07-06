@@ -744,10 +744,10 @@ body{
 }
 .footerBtn > a {
   float: left;
-  width: 50%;
+  width: 33.33%;
   text-align: center;
 }
-.footerBtn_l {
+.footerBtn_l,.footerBtn_r {
   border-right: 1px solid #d8d8d8;
 }
 .footerBtn_l > i {
@@ -766,7 +766,15 @@ body{
   background-image: url("../image/phone.png");
   background-size: 100% 100%;
 }
-.footerBtn_l > span {
+.footerBtn_m > i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  background-image: url("../image/kefu.png");
+  background-size: 100% 100%;
+}
+.footerBtn  span {
   display: inline-block;
   vertical-align: middle;
 }
