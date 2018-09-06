@@ -97,7 +97,7 @@
 
 			<!--
 				<div class="huiyuan">
-					<img src="../image/h1.jpg">
+					<img src="image/h1.jpg">
 					<div class="huiyuan_title">何小姐</div>
 					<div class="huiyuan_tip">刘小姐原先的身材较丰满，通过2个月的拳击训练，成功减重10公斤，达到自己理想的体重。</div>
 				</div>
@@ -137,7 +137,7 @@
 				<div class="shipin">
 					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频1','1','ssp001']);">
 						<i class="play"></i>
-						<video src="../video/1.mp4" preload="none"></video>
+						<video src="video/1.mp4" preload="none"></video>
 						<div class="videoImgCon">
 							<img onload="fitImage(this.parentNode,this)" onClick="return false" data-original="image/v11.jpg" src="image/default.jpg" >						</div>
 					</div>
@@ -147,7 +147,7 @@
 					<div class="shipin">
 					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频2','1','ssp002']);">
 						<i class="play"></i>
-						<video src="../video/2.mp4" preload="none"></video>
+						<video src="video/2.mp4" preload="none"></video>
 						<div class="videoImgCon">
 							<img onload="fitImage(this.parentNode,this)" onClick="return false" data-original="image/v12.jpg" src="image/default.jpg" >						</div>
 					</div>
@@ -158,7 +158,7 @@
 					<div class="shipin">
 					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频3','1','ssp003']);">
 						<i class="play"></i>
-						<video src="../video/3.mp4" preload="none"></video>
+						<video src="video/3.mp4" preload="none"></video>
 						<div class="videoImgCon">
 							<img onload="fitImage(this.parentNode,this)" onClick="return false"  src="image/v14.jpg" >						</div>
 					</div>
@@ -170,7 +170,7 @@
 				<div class="shipin">
 					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频4','1','ssp004']);">
 						<i class="play"></i>
-						<video src="../video/4.mp4" preload="none"></video>
+						<video src="video/4.mp4" preload="none"></video>
 						<div class="videoImgCon">
 							<img onload="fitImage(this.parentNode,this)" onClick="return false"   src="image/v13.jpg">						</div>
 					</div>
@@ -189,7 +189,7 @@
 				<div class="shipin">
 					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频5','1','ssp005']);">
 						<i class="play"></i>
-						<video src="../video/5.mp4" preload="none"></video>
+						<video src="video/5.mp4" preload="none"></video>
 						<div class="videoImgCon">
 							<img onload="fitImage(this.parentNode,this)" onClick="return false" src="image/v15.jpg"  >						</div>
 					</div>
@@ -200,7 +200,7 @@
 				<div class="shipin">
 					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频6','1','ssp006']);">
 						<i class="play"></i>
-						<video src="../video/6.mp4" preload="none"></video>
+						<video src="video/6.mp4" preload="none"></video>
 						<div class="videoImgCon">
 							<img onload="fitImage(this.parentNode,this)" onClick="return false" src="image/v13.jpg">						</div>
 					</div>
@@ -211,7 +211,7 @@
 				<div class="shipin">
 					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频7','1','ssp007']);">
 						<i class="play"></i>
-						<video src="../video/7.mp4" preload="none"></video>
+						<video src="video/7.mp4" preload="none"></video>
 						<div class="videoImgCon">
 							<img onload="fitImage(this.parentNode,this)" onClick="return false" src="image/v16.jpg">						</div>
 					</div>
@@ -222,7 +222,7 @@
 				<div class="shipin">
 					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频8','1','ssp008']);">
 						<i class="play"></i>
-						<video src="../video/8.mp4" preload="none"></video>
+						<video src="video/8.mp4" preload="none"></video>
 						<div class="videoImgCon">
 							<img onload="fitImage(this.parentNode,this)" onClick="return false" src="image/v13-2.jpg">						</div>
 					</div>
@@ -563,7 +563,7 @@
 			<span>在线约课</span>
 		</a>
 
-		<a href="http://p.qiao.baidu.com/cps/chat?siteId=12353556&userId=24383320" class="footerBtn_m" target="_blank" onClick="_czc.push(['_trackEvent', '首页', '咨询', '在线咨询','5','sly002']);">
+		<a href="" class="footerBtn_m" target="_blank" onClick="_czc.push(['_trackEvent', '首页', '咨询', '在线咨询','5','sly002']);">
 			<i></i>
 			<span>咨询客服</span>
 		</a>
@@ -635,6 +635,8 @@
 				scrollY: false,
 				preventDefault: false
 			});
+			$('.footerBtn_m').attr('href','http://p.qiao.baidu.com/cps/chat?siteId=12353556&userId=24383320');
+			
 		})
 
 		var swiper = new Swiper('#swiper', {
