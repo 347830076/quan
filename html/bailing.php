@@ -112,7 +112,7 @@
 				<div class="whyVideo" style="margin-right: 4%;">
 					<div class="videoCon">
 						<i class="play"></i>
-						<video src="../video/mx1.mp4" preload="none"></video>
+						<video src="http://121.12.94.45/67737FE0B07397420114C45D7/03000A01005B45B5185BA5B30FFAFFA9660FB0-C41D-4480-9550-A408538C3C77.mp4?ccode=0502&duration=67&expire=18000&psid=9afeb91b47a3e5c1663da08bb2668d53&sp=&ups_client_netip=77814762&ups_ts=1531295287&ups_userid=665931719&utid=tyjWEkmFiT0CAXeBSo8CiI7E&vid=XMzcxNzAyMDM4NA%3D%3D&vkey=B4e5981e927623d76eb9166ebcfe5d2ba"></video>
 						<div class="videoImgCon">
 							<img onload="fitImage(this.parentNode,this)" onClick="return false" src="../image/m1.jpg">
 						</div>
@@ -991,6 +991,7 @@
 		  }     
 		}			
 	</script>
+<<<<<<< HEAD:html/bailing.php
 
 
 <script>
@@ -1005,6 +1006,73 @@ var _hmt = _hmt || [];
 
 
 
+=======
+	<!-- <script type="text/javascript">
+		$(function () {
+			var city = localStorage.getItem("city");
+			if (city) {
+				if (city.indexOf('广州') > -1) {
+					$('.huanjingCon').prepend($('#guangzhou')).prepend($('#guangzhou2'));
+				} else if (city.indexOf('深圳') > -1) {
+					$('.huanjingCon').prepend($('#shenzhen')).prepend($('#shenzhen2'));
+				} else if (city.indexOf('北京') > -1) {
+					$('.huanjingCon').prepend($('#beijing')).prepend($('#beijing2'));
+				}
+				console.log('有city缓存');
+				return false;
+			} else {
+				console.log('没有city缓存');
+			}
+			dynamicLoadJs('http://api.map.baidu.com/api?v=2.0&ak=SalVkqMoNKh8lZugiLBICl0B', function (e) {
+
+				// 百度地图API功能
+				var map = new BMap.Map("allmap");
+				var point = new BMap.Point(116.331398, 39.897445);
+				map.centerAndZoom(point, 12);
+
+				var geolocation = new BMap.Geolocation();
+				geolocation.getCurrentPosition(function (r) {
+					if (this.getStatus() == BMAP_STATUS_SUCCESS) {
+						if (r.address && r.address.city) {
+							localStorage.setItem('city', r.address.city);
+							if (r.address.city.indexOf('广州') > -1) {
+								$('.huanjingCon').prepend($('#guangzhou')).prepend($('#guangzhou2'));
+							} else if (r.address.city.indexOf('深圳') > -1) {
+								$('.huanjingCon').prepend($('#shenzhen')).prepend($('#shenzhen2'));
+							} else if (r.address.city.indexOf('北京') > -1) {
+								$('.huanjingCon').prepend($('#beijing')).prepend($('#beijing2'));
+							}
+						}
+					} else {
+
+					}
+				}, {
+						enableHighAccuracy: true
+					})
+			});
+			/**
+			 * 动态加载JS
+			 * @param {string} url 脚本地址
+			 * @param {function} callback  回调函数
+			 */
+			function dynamicLoadJs(url, callback) {
+				var head = document.getElementsByTagName('head')[0];
+				var script = document.createElement('script');
+				script.type = 'text/javascript';
+				script.src = url;
+				if (typeof (callback) == 'function') {
+					script.onload = script.onreadystatechange = function () {
+						if (!this.readyState || this.readyState === "loaded" || this.readyState === "complete") {
+							callback();
+							script.onload = script.onreadystatechange = null;
+						}
+					};
+				}
+				head.appendChild(script);
+			}
+		})
+	</script> -->
+>>>>>>> 682894ca59128e264cd43e26ce8c733bc9367470:html/index.html
 </body>
 
 </html>
