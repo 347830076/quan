@@ -358,15 +358,15 @@ body{
 }
 
 .yueke1 {
-  background-image: url("../image/y1.png");
+  background-image: url("../image/y1.jpg");
 }
 
 .yueke2 {
-  background-image: url("../image/y2.png");
+  background-image: url("../image/y2.jpg");
 }
 
 .yueke3 {
-  background-image: url("../image/y3.png");
+  background-image: url("../image/y3.jpg");
 }
 
 .yuekeText {
@@ -392,7 +392,7 @@ body{
   padding-left: 20px;
 }
 .huiyuanCon {
-  width: 1100px;
+  width: 835px;
   /* white-space: nowrap; */
   /* overflow-x: auto; */
 }
@@ -430,7 +430,7 @@ body{
   /* white-space: nowrap;
   padding-left: 20px; */
   margin-bottom: 10px;
-  width: 730px;
+  width: 960px;
   /* overflow-x: auto; */
 }
 
@@ -664,7 +664,7 @@ body{
 }
 .zhengshuCon{
   float: left;
-  width: 870px;
+  width: 530px;
   /* white-space: nowrap;
   padding-left: 20px;
   overflow-x: auto; */
@@ -846,7 +846,7 @@ body{
 .tanRow>div{
   position: relative;
   float: left;
-  width: 49%;
+  width: 32%;
   height: 44px;
   line-height: 44px;
   text-align: center;
