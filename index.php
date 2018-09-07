@@ -5,13 +5,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<meta name="description" content="易简拳击，是上市公司易简传媒集团旗下体育品牌，全国多城市设有拳击体验店，全国最大的拳馆连锁机构，专注白领拳击培训，白领拳击比赛。"/>
-     <meta name="keywords" content="拳击,拳击培训,散打,散打培训,泰拳,泰拳培训,搏击,搏击培训,广州拳击,广州散打,广州泰拳,深圳拳击,深圳散打,深圳泰拳,北京拳击,北京散打,北京泰拳"/>
+	<meta name="description" content="易简拳击，是上市公司易简传媒集团旗下体育品牌，全国多城市设有拳击体验店，全国最大的拳馆连锁机构，专注白领拳击培训，白领拳击比赛。" />
+	<meta name="keywords" content="拳击,拳击培训,散打,散打培训,泰拳,泰拳培训,搏击,搏击培训,广州拳击,广州散打,广州泰拳,深圳拳击,深圳散打,深圳泰拳,北京拳击,北京散打,北京泰拳" />
 	<link rel="stylesheet" href="css/api.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/index.css">
 	<title>【易简拳击官网】拳击_散打_泰拳_搏击，白领搏击培训</title>
-		<script src="js/fit_image.js"></script>
+	<script src="js/fit_image.js"></script>
 
 </head>
 
@@ -21,7 +21,7 @@
 		<a href="tel:4000889957" class="top_r" onClick="_czc.push(['_trackEvent', '首页', '电话', '头部','10','stel002']);">
 			<div class="top_phone">400-088-9957</div>
 			<div class="top_text">点击预约电话</div>
-		</a>	</div>
+		</a> </div>
 	<!-- 轮播图 -->
 	<div class="swiper-container" id="swiper">
 		<div class="swiper-wrapper">
@@ -48,8 +48,8 @@
 			<div class="tabImg hyal"></div>
 			<div class="tabText">我要约课</div>
 			<div class="tabImgB"></div>
-	  </a>
-		<a href="#xlsp" class="tab"  onclick="_czc.push(['_trackEvent', '首页', '按钮', '训练视频','1','san003']);">
+		</a>
+		<a href="#xlsp" class="tab" onclick="_czc.push(['_trackEvent', '首页', '按钮', '训练视频','1','san003']);">
 			<div class="tabImg xlsp"></div>
 			<div class="tabText">训练视频</div>
 			<div class="tabImgB"></div>
@@ -59,7 +59,7 @@
 			<div class="tabText">场馆介绍</div>
 			<div class="tabImgB"></div>
 		</a>
-</div>
+	</div>
 	<!-- 我要约课 -->
 	<div id="wyyk" class="blockCon yuekeCon">
 		<div class="block_title">
@@ -67,17 +67,17 @@
 			<span>我要约课</span>
 			<i class="block_title_r"></i>
 		</div>
-		
-		<div class="yueke yueke1" onClick="location.href='bailing.php'"  onclick="_czc.push(['_trackEvent', '首页', '广告', '白领拳击','1','sgg001']);">
+
+		<div class="yueke yueke1" onClick="location.href='bailing.php'" onclick="_czc.push(['_trackEvent', '首页', '广告', '白领拳击','1','sgg001']);">
 			<div class="yuekeText">白领拳击体验课</div>
 			<div class="yuekeBtn">马上预约</div>
 		</div>
-		
+
 		<div class="yueke yueke2" onClick="location.href='bailing.php'" onclick="_czc.push(['_trackEvent', '首页', '广告', '企业团建','1','sgg003']);">
 			<div class="yuekeText">企业团建拳击体验课</div>
 			<div class="yuekeBtn">马上预约</div>
 		</div>
-		
+
 		<div class="yueke yueke3" onClick="location.href='bailing.php'" onclick="_czc.push(['_trackEvent', '首页', '广告', '少儿拳击','1','sgg002']);">
 			<div class="yuekeText">少儿拳击体验课</div>
 			<div class="yuekeBtn">马上预约</div>
@@ -93,9 +93,9 @@
 			<i class="block_title_r"></i>
 		</div>
 		<div id="scroller">
-		   	<div class="huiyuanCon">
+			<div class="huiyuanCon">
 
-			<!--
+				<!--
 				<div class="huiyuan">
 					<img src="image/h1.jpg">
 					<div class="huiyuan_title">何小姐</div>
@@ -103,24 +103,24 @@
 				</div>
 				-->
 				<div class="huiyuan">
-					<img  data-original="image/h2.jpg" src="image/default.jpg">
+					<img data-original="image/h2.jpg" src="image/default.jpg">
 					<div class="huiyuan_title">朱小姐</div>
 					<div class="huiyuan_tip">之前办过2次健身房卡，都没坚持下来，感觉健身房有些无聊。拳击的氛围与趣味性，让她在单项运动上坚持了8个月，同时气色也好了很多。</div>
 				</div>
 				<div class="huiyuan">
-					<img  data-original="image/an3.jpg" src="image/default.jpg">
+					<img data-original="image/an3.jpg" src="image/default.jpg">
 					<div class="huiyuan_title">聂先生</div>
 					<div class="huiyuan_tip">人称彪哥，58岁，练拳击2个月，减肥16斤；在来练拳击前，一真觉得拳击是年经人玩的；当坚持一段时间后，突然发现，其实自己也很年轻。</div>
 				</div>
 				<div class="huiyuan">
-					<img  src="image/an4.jpg">
+					<img src="image/an4.jpg">
 					<div class="huiyuan_title">辛先生</div>
 					<div class="huiyuan_tip">因为工作关系没时间运动，开始想通过拳击来解除工作压力；练拳击坚持5月时，发现自己瘦了14斤，拳击成了生活的一部分。</div>
 				</div>
-				
+
 			</div>
-			
-		</div>	
+
+		</div>
 
 	</div>
 
@@ -135,108 +135,108 @@
 			<div class="shipinCon clearfix">
 
 				<div class="shipin">
-					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频1','1','ssp001']);">
+					<div class="videoCon" onclick="_czc.push(['_trackEvent', '首页', '视频', '视频1','1','ssp001']);">
 						<i class="play"></i>
 						<video src="video/1.mp4" preload="none"></video>
 						<div class="videoImgCon">
-							<img onload="fitImage(this.parentNode,this)" onClick="return false" data-original="image/v11.jpg" src="image/default.jpg" >						</div>
+							<img onload="fitImage(this.parentNode,this)" onClick="return false" data-original="image/v11.jpg" src="image/default.jpg">							</div>
 					</div>
 					<div class="videoTip">美女条件对抗练习</div>
 				</div>
-	
-					<div class="shipin">
-					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频2','1','ssp002']);">
+
+				<div class="shipin">
+					<div class="videoCon" onclick="_czc.push(['_trackEvent', '首页', '视频', '视频2','1','ssp002']);">
 						<i class="play"></i>
 						<video src="video/2.mp4" preload="none"></video>
 						<div class="videoImgCon">
-							<img onload="fitImage(this.parentNode,this)" onClick="return false" data-original="image/v12.jpg" src="image/default.jpg" >						</div>
+							<img onload="fitImage(this.parentNode,this)" onClick="return false" data-original="image/v12.jpg" src="image/default.jpg">							</div>
 					</div>
 					<div class="videoTip">高级无限制实战训练</div>
 				</div>
-		
-				
-					<div class="shipin">
-					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频3','1','ssp003']);">
+
+
+				<div class="shipin">
+					<div class="videoCon" onclick="_czc.push(['_trackEvent', '首页', '视频', '视频3','1','ssp003']);">
 						<i class="play"></i>
 						<video src="video/3.mp4" preload="none"></video>
 						<div class="videoImgCon">
-							<img onload="fitImage(this.parentNode,this)" onClick="return false"  src="image/v14.jpg" >						</div>
+							<img onload="fitImage(this.parentNode,this)" onClick="return false" src="image/v14.jpg"> </div>
 					</div>
 					<div class="videoTip">女进攻男防身训练</div>
 				</div>
-						
-							
+
+
 				<!--加开始1-->
 				<div class="shipin">
-					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频4','1','ssp004']);">
+					<div class="videoCon" onclick="_czc.push(['_trackEvent', '首页', '视频', '视频4','1','ssp004']);">
 						<i class="play"></i>
 						<video src="video/4.mp4" preload="none"></video>
 						<div class="videoImgCon">
-							<img onload="fitImage(this.parentNode,this)" onClick="return false"   src="image/v13.jpg">						</div>
+							<img onload="fitImage(this.parentNode,this)" onClick="return false" src="image/v13.jpg"> </div>
 					</div>
 					<div class="videoTip">美女手靶训练</div>
-				</div>				
+				</div>
 				<!--加结束1-->
-				
-				
+
+
 			</div>
 		</div>
 		<div id="scroller3">
 			<div class="shipinCon clearfix">
-			
 
-				
+
+
 				<div class="shipin">
-					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频5','1','ssp005']);">
+					<div class="videoCon" onclick="_czc.push(['_trackEvent', '首页', '视频', '视频5','1','ssp005']);">
 						<i class="play"></i>
 						<video src="video/5.mp4" preload="none"></video>
 						<div class="videoImgCon">
-							<img onload="fitImage(this.parentNode,this)" onClick="return false" src="image/v15.jpg"  >						</div>
+							<img onload="fitImage(this.parentNode,this)" onClick="return false" src="image/v15.jpg"> </div>
 					</div>
 					<div class="videoTip">直拳训练指导</div>
 				</div>
-				
-				
+
+
 				<div class="shipin">
-					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频6','1','ssp006']);">
+					<div class="videoCon" onclick="_czc.push(['_trackEvent', '首页', '视频', '视频6','1','ssp006']);">
 						<i class="play"></i>
 						<video src="video/6.mp4" preload="none"></video>
 						<div class="videoImgCon">
-							<img onload="fitImage(this.parentNode,this)" onClick="return false" src="image/v13.jpg">						</div>
+							<img onload="fitImage(this.parentNode,this)" onClick="return false" src="image/v13.jpg"> </div>
 					</div>
 					<div class="videoTip">防守闪躲训练</div>
 				</div>
-				
-				
+
+
 				<div class="shipin">
-					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频7','1','ssp007']);">
+					<div class="videoCon" onclick="_czc.push(['_trackEvent', '首页', '视频', '视频7','1','ssp007']);">
 						<i class="play"></i>
 						<video src="video/7.mp4" preload="none"></video>
 						<div class="videoImgCon">
-							<img onload="fitImage(this.parentNode,this)" onClick="return false" src="image/v16.jpg">						</div>
+							<img onload="fitImage(this.parentNode,this)" onClick="return false" src="image/v16.jpg"> </div>
 					</div>
 					<div class="videoTip">勾拳攻防训练初级</div>
 				</div>
-				
+
 				<!--加开始2-->
 				<div class="shipin">
-					<div class="videoCon"  onclick="_czc.push(['_trackEvent', '首页', '视频', '视频8','1','ssp008']);">
+					<div class="videoCon" onclick="_czc.push(['_trackEvent', '首页', '视频', '视频8','1','ssp008']);">
 						<i class="play"></i>
 						<video src="video/8.mp4" preload="none"></video>
 						<div class="videoImgCon">
-							<img onload="fitImage(this.parentNode,this)" onClick="return false" src="image/v13-2.jpg">						</div>
+							<img onload="fitImage(this.parentNode,this)" onClick="return false" src="image/v13-2.jpg"> </div>
 					</div>
 					<div class="videoTip">课后总结动作解析</div>
-				</div>				
-				<!--加结束2-->					
-				
-				
+				</div>
+				<!--加结束2-->
+
+
 			</div>
 		</div>
 	</div>
-	
-	
-	
+
+
+
 	<!-- 训练环境 -->
 	<div id="cgjs" class="blockCon">
 		<div class="block_title">
@@ -246,26 +246,26 @@
 		</div>
 		<div id="scroller4">
 			<div class="huanjingCon clearfix">
-					<div class="huanjing" id="shenzhen">
+				<div class="huanjing" id="shenzhen">
 					<div class="huanjing_t">
 						<span>广州员村馆</span>
-						<i></i>					</div>
+						<i></i> </div>
 					<div class="huanjing_m">
-						<img onload="fitImage(this.parentNode,this)"  data-original="image/xc/gz1/6.jpg" src="image/default.jpg">
+						<img onload="fitImage(this.parentNode,this)" data-original="image/xc/gz1/6.jpg" src="image/default.jpg">
 					</div>
 					<div class="huanjing_b">
 						<div class="huanjing_b_l">
-							<img onload="fitImage(this.parentNode,this)"  data-original="image/xc/gz1/1.jpg" src="image/default.jpg">
+							<img onload="fitImage(this.parentNode,this)" data-original="image/xc/gz1/1.jpg" src="image/default.jpg">
 						</div>
 						<div>
-							<img onload="fitImage(this.parentNode,this)"  data-original="image/xc/gz1/5.jpg" src="image/default.jpg">
+							<img onload="fitImage(this.parentNode,this)" data-original="image/xc/gz1/5.jpg" src="image/default.jpg">
 						</div>
 					</div>
 				</div>
 				<div class="huanjing" id="shenzhen2">
 					<div class="huanjing_t">
 						<span>广州员村馆</span>
-						<i></i>					</div>
+						<i></i> </div>
 					<div class="huanjing_m">
 						<img onload="fitImage(this.parentNode,this)" src="image/xc/gz1/2.jpg">
 					</div>
@@ -278,11 +278,11 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="huanjing" id="guangzhou">
 					<div class="huanjing_t">
 						<span>深圳车公庙馆</span>
-						<i></i>					</div>
+						<i></i> </div>
 					<div class="huanjing_m">
 						<img onload="fitImage(this.parentNode,this)" src="image/xc/sz1/1.jpg">
 					</div>
@@ -298,7 +298,7 @@
 				<div class="huanjing" id="guangzhou2">
 					<div class="huanjing_t">
 						<span>深圳车公庙馆</span>
-						<i></i>					</div>
+						<i></i> </div>
 					<div class="huanjing_m">
 						<img onload="fitImage(this.parentNode,this)" src="image/xc/sz1/7.jpg">
 					</div>
@@ -311,11 +311,11 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="huanjing" id="beijing">
 					<div class="huanjing_t">
 						<span>北京清华馆</span>
-						<i></i>					</div>
+						<i></i> </div>
 					<div class="huanjing_m">
 						<img onload="fitImage(this.parentNode,this)" src="image/xc/bj1/1.jpg">
 					</div>
@@ -328,11 +328,11 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="huanjing" id="beijing2">
 					<div class="huanjing_t">
 						<span>北京清华馆</span>
-						<i></i>					</div>
+						<i></i> </div>
 					<div class="huanjing_m">
 						<img onload="fitImage(this.parentNode,this)" src="image/xc/bj1/4.jpg">
 					</div>
@@ -345,9 +345,9 @@
 						</div>
 					</div>
 				</div>
-				
-				
-				
+
+
+
 			</div>
 		</div>
 	</div>
@@ -366,7 +366,7 @@
 					<div class="jingyingCon">
 						<div class="jingyingCon_lCon">
 							<div class="jingyingCon_l">
-								<img onload="fitImage(this.parentNode,this)" data-original="image/jl/1.jpg" src="image/default.jpg" >							</div>
+								<img onload="fitImage(this.parentNode,this)" data-original="image/jl/1.jpg" src="image/default.jpg"> </div>
 						</div>
 						<div class="jingyingCon_m">
 							<div class="jingyingCon_t">张立填</div>
@@ -381,7 +381,7 @@
 					<div class="jingyingCon">
 						<div class="jingyingCon_lCon">
 							<div class="jingyingCon_l">
-								<img onload="fitImage(this.parentNode,this)" data-original="image/jl/2.jpg" src="image/default.jpg" >							</div>
+								<img onload="fitImage(this.parentNode,this)" data-original="image/jl/2.jpg" src="image/default.jpg"> </div>
 						</div>
 						<div class="jingyingCon_m">
 							<div class="jingyingCon_t">温键超</div>
@@ -398,7 +398,7 @@
 					<div class="jingyingCon">
 						<div class="jingyingCon_lCon">
 							<div class="jingyingCon_l">
-								<img onload="fitImage(this.parentNode,this)"  data-original="image/jl/3.jpg" src="image/default.jpg" >							</div>
+								<img onload="fitImage(this.parentNode,this)" data-original="image/jl/3.jpg" src="image/default.jpg"> </div>
 						</div>
 						<div class="jingyingCon_m">
 							<div class="jingyingCon_t">曾秋煌</div>
@@ -414,7 +414,7 @@
 					<div class="jingyingCon">
 						<div class="jingyingCon_lCon">
 							<div class="jingyingCon_l">
-								<img onload="fitImage(this.parentNode,this)"  data-original="image/jl/4.jpg" src="image/default.jpg" >							</div>
+								<img onload="fitImage(this.parentNode,this)" data-original="image/jl/4.jpg" src="image/default.jpg"> </div>
 						</div>
 						<div class="jingyingCon_m">
 							<div class="jingyingCon_t">陈钿</div>
@@ -432,7 +432,7 @@
 					<div class="jingyingCon">
 						<div class="jingyingCon_lCon">
 							<div class="jingyingCon_l">
-								<img onload="fitImage(this.parentNode,this)" src="image/jl/5.jpg">							</div>
+								<img onload="fitImage(this.parentNode,this)" src="image/jl/5.jpg"> </div>
 						</div>
 						<div class="jingyingCon_m">
 							<div class="jingyingCon_t">敖志明</div>
@@ -449,7 +449,7 @@
 					<div class="jingyingCon">
 						<div class="jingyingCon_lCon">
 							<div class="jingyingCon_l">
-								<img onload="fitImage(this.parentNode,this)" src="image/jl/6.jpg">							</div>
+								<img onload="fitImage(this.parentNode,this)" src="image/jl/6.jpg"> </div>
 						</div>
 						<div class="jingyingCon_m">
 							<div class="jingyingCon_t">黄坚周</div>
@@ -466,7 +466,7 @@
 					<div class="jingyingCon">
 						<div class="jingyingCon_lCon">
 							<div class="jingyingCon_l">
-								<img onload="fitImage(this.parentNode,this)" src="image/jl/7.jpg">							</div>
+								<img onload="fitImage(this.parentNode,this)" src="image/jl/7.jpg"> </div>
 						</div>
 						<div class="jingyingCon_m">
 							<div class="jingyingCon_t">李云龙</div>
@@ -481,7 +481,7 @@
 					<div class="jingyingCon">
 						<div class="jingyingCon_lCon">
 							<div class="jingyingCon_l">
-								<img onload="fitImage(this.parentNode,this)" src="image/jl/8.jpg">							</div>
+								<img onload="fitImage(this.parentNode,this)" src="image/jl/8.jpg"> </div>
 						</div>
 						<div class="jingyingCon_m">
 							<div class="jingyingCon_t">高飞</div>
@@ -489,7 +489,7 @@
 							<div>2015年获得chinafit男子健体165组第五</div>
 							<div>2016年获得chinafit男子健体165五第四名</div>
 							<div>2017年获得国际运动营养学认证证书</div>
-							<div class="more">更多</div>					
+							<div class="more">更多</div>
 						</div>
 					</div>
 				</div>
@@ -520,21 +520,21 @@
 				<div class="linkRow_l"></div>
 				<div class="linkRow_r">
 					<div>广州员村总馆</div>
-					<div class="linkRow_r_tip">广州海珠区临江大道员村南街8号盈富仓106-108号(泮江酒家路口/仙庙烧鸡斜对面)					</div>
+					<div class="linkRow_r_tip">广州海珠区临江大道员村南街8号盈富仓106-108号(泮江酒家路口/仙庙烧鸡斜对面) </div>
 				</div>
 			</div>
 			<div class="linkRowCon">
 				<div class="linkRow_l"></div>
 				<div class="linkRow_r">
 					<div>深圳车公庙馆</div>
-					<div class="linkRow_r_tip">深圳福田区泰然五路天经大厦ab座(车公庙地铁站F出口步行500米)					</div>
+					<div class="linkRow_r_tip">深圳福田区泰然五路天经大厦ab座(车公庙地铁站F出口步行500米) </div>
 				</div>
 			</div>
 			<div class="linkRowCon">
 				<div class="linkRow_l"></div>
 				<div class="linkRow_r">
 					<div>北京清华大学馆</div>
-					<div class="linkRow_r_tip">北京双清路88号华源世纪商务楼(西临清华大学，南邻五道口商圈)					</div>
+					<div class="linkRow_r_tip">北京双清路88号华源世纪商务楼(西临清华大学，南邻五道口商圈) </div>
 				</div>
 			</div>
 		</div>
@@ -542,12 +542,13 @@
 			<img class="code" src="image/code.png">
 			<div>
 				微信号:SENZZC
-				<br/> 加微信24小时预约		</div>
+				<br/> 加微信24小时预约
+			</div>
 		</div>
 		<div class="copright">
-		COPYRIGHT 2015 - 2018 广州拳康体育发展有限公司<br>
-		<a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank">粤ICP备18083814号 </a>
-		
+			COPYRIGHT 2015 - 2018 广州拳康体育发展有限公司<br>
+			<a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank">粤ICP备18083814号 </a>
+
 		</div>
 
 	</div>
@@ -573,19 +574,19 @@
 	<div class="tanBG">
 		<div class="tanCon">
 			<div class="tanTitle">拳击体验课在线预约
-				<span id="colse">x</span>			</div>
+				<span id="colse">x</span> </div>
 			<input id="number" type="number" placeholder="电话号码" />
 			<input id="name" type="text" placeholder="姓名" />
 			<div class="tanRow clearfix" id="class">
 				<div class="tanRow_l active">广州员村馆
-					<i></i>				</div>
+					<i></i> </div>
 				<div class="tanRow_l">深圳车公庙馆
-					<i></i>				</div>
-				
+					<i></i> </div>
+
 				<div>北京清华馆
-					<i></i>				</div>
+					<i></i> </div>
 			</div>
-			
+
 			<!--<div class="tanRow clearfix" id="sex">
 				<div class="tanRow_l active">帅哥
 					<i></i>
@@ -594,7 +595,7 @@
 					<i></i>
 				</div>
 			</div>-->
-			
+
 			<div class="textareaCon">
 				<textarea id="remark" placeholder="可预约团课、私教、少儿私教，备注要求！"></textarea>
 			</div>
@@ -606,10 +607,9 @@
 	<script src="js/swiper.min.js"></script>
 	<script src="js/iscroll.js"></script>
 	<script src="js/jquery.lazyload.js"></script>
-	<script src="js/lazyload_x.js"></script>
 	<script>
-		$("img").lazyload({ });
-			
+		$("img").lazyload({});
+
 		$(function () {
 			var myScroll = new IScroll('#scroller', {
 				eventPassthrough: true,
@@ -635,8 +635,8 @@
 				scrollY: false,
 				preventDefault: false
 			});
-			$('.footerBtn_m').attr('href','http://p.qiao.baidu.com/cps/chat?siteId=12353556&userId=24383320');
-			
+			$('.footerBtn_m').attr('href', 'http://p.qiao.baidu.com/cps/chat?siteId=12353556&userId=24383320');
+
 		})
 
 		var swiper = new Swiper('#swiper', {
@@ -691,7 +691,7 @@
 				return false;
 			}
 
-			if(!CheckMobile(number)){
+			if (!CheckMobile(number)) {
 
 				alert('请正确填写电话号码');
 				return false;
@@ -729,39 +729,39 @@
 				}
 			});
 		});
-		
-				function CheckMobile(str){
-		  var
-		 re = /^(13[0-9]|14[579]|15[0-3,5-9]|16[6]|17[0135678]|18[0-9]|19[89])\d{8}$/;
-		  if(re.test(str)){
-		    return true;
-		  }else{
-		    return false;
-		  }     
+
+		function CheckMobile(str) {
+			var
+				re = /^(13[0-9]|14[579]|15[0-3,5-9]|16[6]|17[0135678]|18[0-9]|19[89])\d{8}$/;
+			if (re.test(str)) {
+				return true;
+			} else {
+				return false;
+			}
 		}	
 	</script>
-	
 
 
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?4c733f9e1d141a7131f07bde99bab1ea";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
 
-(function() {
-     var s = document.createElement('script');
-     s.type = 'text/javascript';
-     s.async = true;
-     s.src = 'https://s19.cnzz.com/z_stat.php?id=1274013020&web_id=1274013020';
-     var x = document.getElementsByTagName('script')[0];
-     x.parentNode.insertBefore(s, x);
- })();
-</script>
-<!-- <script src="https://s19.cnzz.com/z_stat.php?id=1274013020&web_id=1274013020" language="JavaScript"></script> -->
+	<script>
+		var _hmt = _hmt || [];
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?4c733f9e1d141a7131f07bde99bab1ea";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+
+		(function () {
+			var s = document.createElement('script');
+			s.type = 'text/javascript';
+			s.async = true;
+			s.src = 'https://s19.cnzz.com/z_stat.php?id=1274013020&web_id=1274013020';
+			var x = document.getElementsByTagName('script')[0];
+			x.parentNode.insertBefore(s, x);
+		})();
+	</script>
+	<!-- <script src="https://s19.cnzz.com/z_stat.php?id=1274013020&web_id=1274013020" language="JavaScript"></script> -->
 </body>
 
 </html>
